@@ -2,8 +2,8 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 
-BASE_URL = "https://api.github.com"
-TOKEN = "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"  
+BASE_URL = "https://api.github.com" #accessing github api
+TOKEN = " " # Get your personal token from developer settinig from the github and paste it here  
 def fetch_repos(username):
     """Fetch repositories for a given GitHub username."""
     url = f"{BASE_URL}/users/{username}/repos"
